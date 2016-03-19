@@ -31,5 +31,25 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "library": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "book": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "patron": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "bookRental": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "author": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
