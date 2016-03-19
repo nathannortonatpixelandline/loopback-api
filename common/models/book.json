@@ -21,7 +21,24 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "libraries": {
+      "type": "hasAndBelongsToMany",
+      "model": "library",
+      "foreignKey": ""
+    },
+    "author": {
+      "type": "belongsTo",
+      "model": "author",
+      "foreignKey": ""
+    },
+    "patrons": {
+      "type": "hasMany",
+      "model": "patron",
+      "foreignKey": "",
+      "through": "bookRental"
+    }
+  },
   "acls": [],
   "methods": {}
 }

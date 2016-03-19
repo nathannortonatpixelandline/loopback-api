@@ -13,7 +13,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "book": {
+      "type": "belongsTo",
+      "model": "book",
+      "foreignKey": ""
+    },
+    "patron": {
+      "type": "belongsTo",
+      "model": "patron",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
