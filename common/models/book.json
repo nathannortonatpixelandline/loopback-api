@@ -18,6 +18,10 @@
     "genre": {
       "type": "string",
       "required": true
+    },
+    "bookColor": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
